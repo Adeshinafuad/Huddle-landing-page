@@ -41,7 +41,8 @@ header {
   border-radius: 20px;
   font-family: var(--poppins);
   color: var(--very-dark-cyan);
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 12px;
 }
 .top-nav img {
   width: 100px;
@@ -69,8 +70,8 @@ header {
 
 .header-body a {
   text-decoration: none;
-  font-family: var(--open-sans);
-  font-weight: 600;
+  font-family: var(--poppins);
+  font-weight: 400;
   padding: 13px 50px;
   background-color: var(--pink);
   border-radius: 30px;
@@ -250,8 +251,9 @@ td {
 
 @media screen and (min-width: 768px) {
   header {
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 6em;
+    background-image: url(images/bg-hero-desktop.svg);
   }
 
   .top-nav {
@@ -265,7 +267,8 @@ td {
   }
 
   .top-nav a {
-    padding: 12px 60px;
+    padding: 9px 55px;
+    font-size: 12px;
   }
 
   .header-main {
@@ -289,6 +292,10 @@ td {
     font-size: 14px;
   }
 
+  .header-body a {
+    font-size: 12px;
+  }
+
   .card {
     height: 50vh;
     margin: 2em auto 0em;
@@ -296,7 +303,7 @@ td {
   .card-body {
     display: flex;
     flex-direction: row-reverse;
-    padding: 3em 0;
+    padding: 2em 0;
     align-items: center;
     margin: 0 0em 0.5em 1em;
   }
@@ -316,7 +323,6 @@ td {
   }
 
   .card-body p {
-    
     padding-right: 7em;
     font-size: 13px;
   }
@@ -332,7 +338,6 @@ td {
   .card-body-reverse img {
     width: 30%;
     margin: 1em 0 0 3em;
-
   }
 
   .card-body-reverse div {
@@ -341,7 +346,6 @@ td {
 
   .card-body-reverse h2 {
     margin: 2em 5.2em 0.5em;
-
   }
 
   .card-body-reverse p {
@@ -350,14 +354,111 @@ td {
     padding: 0 0 4em 8em;
   }
 
-   td{
+  td {
     padding: 1em;
-   }
-  .section-build{
+  }
+  .section-build {
     width: 60%;
   }
-
-  
 }
 
+@media screen and (min-width: 1080px) {
+  header {
+    height: 100vh;
+  }
+
+
+
+  .top-nav {
+    padding: 3em;
+    margin-bottom: 0%;
+  }
+  
+
+  .top-nav img{
+    width: 10em;
+
+  }
+  .header-body{
+    width: 50%;
+  }
+
+  .header-body h1{
+    font-size: 2.2em;
+    font-weight: 100;
+    padding: 0;
+  }
+
+  .header-body p{
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .header-img{
+    padding: 0%;
+  }
+
+  .card {
+    height: 22em;
+  }
+
+  .card-body, .card-body-reverse {
+    padding-top: 1em;
+    text-align: center;
+}
+
+  .card-body img {
+    width: 60%;
+    margin: 1em;
+    height: 18em;
+  }
+
+  .card-body h2{
+    font-size: 1.4em;
+  }
+
+  .card-body p {
+    font-size: 16px;
+    padding-right: 15em;
+    padding-left: 2.2em;
+  }
+
+  .card-body-reverse img {
+    width: 60%;
+    margin: 1em 0 0 4em;
+    height: 18em;
+  }
+
+  .card-body-reverse h2{
+    font-size: 1.4em;
+  }
+
+  .card-body-reverse p {
+    font-size: 16px;
+    padding-left: 8.2em;
+    padding-right: 2.2em;
+  }
+
+  footer{
+    display: flex;
+    padding: 5em 2em;    
+  }
+
+  footer section{
+    width: 30%;
+  }
+
+  .footer-nav {
+  padding: 0 0;
+  }
+
+  .footer-link{
+    flex-direction: row;
+  }
+
+
+
+
+}
 
