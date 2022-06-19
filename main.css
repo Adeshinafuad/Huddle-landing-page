@@ -367,35 +367,31 @@ td {
     height: 100vh;
   }
 
-
-
   .top-nav {
     padding: 3em;
     margin-bottom: 0%;
   }
-  
 
-  .top-nav img{
+  .top-nav img {
     width: 10em;
-
   }
-  .header-body{
+  .header-body {
     width: 50%;
   }
 
-  .header-body h1{
+  .header-body h1 {
     font-size: 2.2em;
     font-weight: 100;
     padding: 0;
   }
 
-  .header-body p{
+  .header-body p {
     padding: 0;
     font-size: 18px;
     font-weight: 400;
   }
 
-  .header-img{
+  .header-img {
     padding: 0%;
   }
 
@@ -403,10 +399,11 @@ td {
     height: 22em;
   }
 
-  .card-body, .card-body-reverse {
+  .card-body,
+  .card-body-reverse {
     padding-top: 1em;
     text-align: center;
-}
+  }
 
   .card-body img {
     width: 60%;
@@ -414,7 +411,7 @@ td {
     height: 18em;
   }
 
-  .card-body h2{
+  .card-body h2 {
     font-size: 1.4em;
   }
 
@@ -430,7 +427,7 @@ td {
     height: 18em;
   }
 
-  .card-body-reverse h2{
+  .card-body-reverse h2 {
     font-size: 1.4em;
   }
 
@@ -440,25 +437,47 @@ td {
     padding-right: 2.2em;
   }
 
-  footer{
+  footer {
     display: flex;
-    padding: 5em 2em;    
+    padding: 5em 2em;
   }
 
-  footer section{
+  footer section {
     width: 30%;
   }
 
   .footer-nav {
-  padding: 0 0;
+    padding: 0 0;
   }
 
-  .footer-link{
+  .footer-nav p {
+    font-size: 16px;
+  }
+
+  .footer-link {
+    display: flex;
     flex-direction: row;
+    margin-top: 3em;
   }
 
+  .footer-link div {
+    padding-right: 2em;
+  }
+  .footer-link a {
+    display: block;
+    font-size: 16px;
+    padding-top: 1em;
+  }
 
+  .social {
+    margin: 4em 0 0;
+    height: 120%;
+    padding-bottom: 0;
+  }
 
-
+  .social p {
+    margin-top: 20em;
+    padding-left: 2em;
+    font-size: 13px;
+  }
 }
-
