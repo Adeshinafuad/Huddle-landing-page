@@ -143,6 +143,7 @@ main {
   font-size: 15px;
   color: var(--grayish-blue);
 }
+
 footer {
   background-color: var(--very-dark-cyan);
   color: white;
@@ -271,6 +272,11 @@ td {
     font-size: 12px;
   }
 
+  .top-nav a:hover{
+    cursor: pointer;
+    color: var(--grayish-blue);
+  }
+
   .header-main {
     display: flex;
     align-items: center;
@@ -294,6 +300,11 @@ td {
 
   .header-body a {
     font-size: 12px;
+  }
+
+  .header-body a:hover{
+    background-color:  hsla(322, 100%, 66%, 0.5);
+    cursor: pointer;
   }
 
   .card {
@@ -360,6 +371,23 @@ td {
   .section-build {
     width: 60%;
   }
+
+  .section-build a:hover{
+    background-color:  hsla(322, 100%, 66%, 0.5);
+    cursor: pointer;
+  }
+
+  .social a:hover{
+    cursor: pointer;
+    filter: invert(1) hue-rotate(180deg) saturate(10);
+    border: 1px solid rgb(109, 20, 104);
+    
+
+  }
+  .footer-link a:hover{
+    text-decoration: underline;
+  }
+  
 }
 
 @media screen and (min-width: 1080px) {
